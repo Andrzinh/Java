@@ -12,17 +12,16 @@ public class exercVetor2{
 
 
         for (i=0; i<TAM; i++) { 
-            System.out.println("Digite o "+(i+1)+"° Valor para A");
+            System.out.println("Digite o "+(i+1)+"Â° Valor para A");
             a[i]= ler.nextInt();
         }
-        for (i=0; i<TAM; i++) { System.out.println("Digite o "+(i+1)+"° Valor para B");
+        for (i=0; i<TAM; i++) { System.out.println("Digite o "+(i+1)+"Â° Valor para B");
             b[i]= ler.nextInt(); 
             c[i]=a[i]+b[i];
         }
-        System.out.print("\nC = ");
+        System.out.print("\nC =");
         for (i=0; i<TAM; i++){
-            System.out.print(c[i]+"  ");
+            System.out.print(c[i]+"");
         	}
-        ler.close();
         }
     }
