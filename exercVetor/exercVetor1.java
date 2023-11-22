@@ -9,7 +9,7 @@ public class exercVetor1 {
         a = new int[TAM];
         b = new int[TAM];
         for(i=0;i<TAM;i++){
-            System.out.println("Digite o "+(i+1)+"° Numero:");
+            System.out.println("Digite o "+(i+1)+"Â° Numero:");
             a[i]=ler.nextInt();
             b[i]=a[i]*a[i];
         }
