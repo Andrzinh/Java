@@ -7,8 +7,8 @@ public class Exercicio4 {
 		a = 0;
 		b = 1;
 		
-		System.out.print("Digite um numero:  ");
-		n = ler.nextInt();
+		System.out.print("Digite um numero:");
+		n=ler.nextInt();
 		if (n>=1){
 			System.out.print(b+"");
 		}
