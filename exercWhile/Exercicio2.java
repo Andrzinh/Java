@@ -11,6 +11,6 @@ public class Exercicio2 {
 			n *= i;
           	i++;
 		}
-		 System.out.println("O fatorial de " + x + " é " + n);
+		 System.out.println("O fatorial de "+x+" é "+n);
 	}
 }
