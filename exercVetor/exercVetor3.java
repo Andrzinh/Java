@@ -11,16 +11,15 @@ public class exercVetor3 {
         b = new int[TAM];
         
         for(i=0;i<TAM;i++){
-        System.out.println("Digite o "+(i+1)+"° Valor:");
+        System.out.println("Digite o "+(i+1)+"Â° Valor:");
         a[i]=ler.nextInt();
         }
         for (i=0;i<TAM;i++) {
             b[i]=a[9-i];
         }
-        System.out.print("\nB = ");
+        System.out.print("\nB =");
         for (i=0;i<TAM;i++) {
-            System.out.print(b[i] + " ");
+            System.out.print(b[i] +"");
         }
-       ler.close();
     }
 }
