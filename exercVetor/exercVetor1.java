@@ -13,10 +13,9 @@ public class exercVetor1 {
             a[i]=ler.nextInt();
             b[i]=a[i]*a[i];
         }
-        System.out.print("\nC = ");
+        System.out.print("\nC =");
         for(i=0;i<TAM;i++){
-            System.out.print(b[i]+ "  ");
+            System.out.print(b[i]+ "");
         }
-       ler.close();
     }
 }
