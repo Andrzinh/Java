@@ -10,13 +10,11 @@ public class exercVetor4 {
         a = new int [TAM];
         
         for(i=0;i<TAM;i++){
-            System.out.println("Digite o "+(i+1)+"° Valor:");
+            System.out.println("Digite o "+(i+1)+"Â° Valor:");
             a[i]=ler.nextInt();
             soma +=a[i];
         }
         media = soma/TAM;
-        System.out.println("A media dos valores é "+media);
-     
-        ler.close();
+        System.out.println("A media dos valores Ã© "+media);
     }
 }
