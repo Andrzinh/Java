@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class exercicio2 {
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
         int mesNasc, diaNasc;
         System.out.println("Digite numero do mes de nascimento:");
         mesNasc = in.nextInt();
@@ -121,7 +121,5 @@ public class exercicio2 {
             default:
                 System.out.println("Mes invalido");
         }
-        
-        in.close();
     }
 }
