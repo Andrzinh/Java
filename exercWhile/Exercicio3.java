@@ -1,19 +1,18 @@
 import java.util.Scanner;
 public class Exercicio3 {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int i=0, x, exp ;
+		Scanner ler = new Scanner(System.in);
+		int i=0, x, exp;
 		long n=1;
 		
 		System.out.println("Digite o numero");
-		x = sc.nextInt();
+		x = ler.nextInt();
 		System.out.println("Digite o expoente");
-		exp = sc.nextInt();
-		while(i< exp) {
+		exp = ler.nextInt();
+		while(i<exp){
 			 n *= x;
              i++;
 		}
-		 System.out.println("A potência de " + x + " é " + n);
-		sc.close();
+		 System.out.println("A potÃªncia de " + x + " Ã© " + n);
 	}
 }
