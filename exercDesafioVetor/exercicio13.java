@@ -1,10 +1,7 @@
-package exs15;
-
-import java.util.*;
-
-public class V_rotina {
+import java.util.Scanner;
+public class exercicio13 {
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
+		Scanner ler = new Scanner(System.in);
 		
 		final int Tam = 10;
 		int i, a[], x;
@@ -28,7 +25,7 @@ public class V_rotina {
 		if (ac == true) {
 			System.out.println("achou");
 		} else {
-			System.out.println("Nâo achou");
+			System.out.println("NÃ¢o achou");
 
 		}
 
