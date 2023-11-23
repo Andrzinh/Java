@@ -1,6 +1,4 @@
-package exs15;
-
-public class V_potência {
+public class exercicio11 {
 	public static void main(String[] args) {
 		int TAM = 11;
 		int[] A = new int[TAM];
