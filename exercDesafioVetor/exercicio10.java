@@ -1,20 +1,16 @@
-package exs15;
+import java.util.Scanner;
 
-import java.util.*;
-
-public class V_parImparComVetorC {
+public class exercicio10 {
 
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
+		Scanner ler = new Scanner(System.in);
 
-		// declarando variáveis
 		final int TAM = 10;
 		int i, a[], b[], c[];
 		a = new int[TAM];
 		b = new int[TAM];
 		c = new int[TAM];
 
-		// criando laços
 		for (i = 0; i < TAM; i++) {
 			System.out.println("Entre com o " + (1 + i) + "o. elemento do vetor A[]:");
 			a[i] = in.nextInt();
@@ -22,7 +18,7 @@ public class V_parImparComVetorC {
 			System.out.println("Entre com o " + (1 + i) + "o. elemento do vetor B[]:");
 			b[i] = in.nextInt();
 
-			// atribuindo condições
+			// atribuindo condiÃ§Ãµes
 			if (a[i] > b[i]) {
 				c[i] = 1;
 				System.out.println("Maior. Vetor C recebe[ " + c[i] + " ].");
