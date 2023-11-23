@@ -1,6 +1,6 @@
 package exs15;
 
-public class V_fatorial {
+public class exercicio4 {
 	public static void main(String[] args) {
 		int TAM = 15;
 		int[] A = new int[TAM];
