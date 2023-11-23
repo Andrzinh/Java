@@ -1,15 +1,12 @@
-package exs15;
-
-import java.util.*;
-
-public class V_palíndromos {
+import java.util.Scanner;
+public class exercicio7 {
 	public class quest12 {
 		public static void main(String[] args) {
 			Scanner in = new Scanner(System.in);
 			final int TAM = 10;
 			int[] A = new int[TAM];
 
-			System.out.println("Digite 10 números inteiros para preencher o vetor A: ");
+			System.out.println("Digite 10 nÃºmeros inteiros para preencher o vetor A: ");
 			for (int i = 0; i < TAM; i++) {
 				A[i] = in.nextInt();
 			}
@@ -20,9 +17,9 @@ public class V_palíndromos {
 			}
 
 			if (i == TAM / 2) {
-				System.out.println("O vetor é um palíndromo.");
+				System.out.println("O vetor Ã© um palÃ­ndromo.");
 			} else {
-				System.out.println("O vetor não é um palíndromo.");
+				System.out.println("O vetor nÃ£o Ã© um palÃ­ndromo.");
 			}
 		}
 	}
