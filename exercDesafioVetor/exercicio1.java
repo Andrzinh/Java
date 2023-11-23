@@ -1,15 +1,12 @@
-package exs15;
-import java.util.*;
-public class V_decrescente {
+import java.util.Scanner;
+public class exercicio1 {
 	 public static void main(String[] args) {
-	        
-		    int TAM = 10;
-	        int[] A = new int[TAM];
-	        int[] B = new int[TAM];
-	        int[] C = new int[TAM];
-
 	        Scanner in = new Scanner(System.in);
 
+		int TAM = 10;
+	        int[] A=new int[TAM];
+	        int[] B=new int[TAM];
+	        int[] C=new int[TAM];
 	        
 	        System.out.println("Digite os 10 elementos do vetor A:");
 	        for (int i = 0; i < TAM; i++) {
