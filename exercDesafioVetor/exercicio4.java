@@ -1,5 +1,3 @@
-package exs15;
-
 public class exercicio4 {
 	public static void main(String[] args) {
 		int TAM = 15;
